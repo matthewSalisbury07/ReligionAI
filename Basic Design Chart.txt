@@ -1,0 +1,24 @@
+Religious Texts (.txt)          (Sources)
+        ↓
+   Embeddings                   (Transformer)
+        ↓
+   Idea Selection
+        ↓
+   ┌────────────────────────────┐
+   │        LLM (Ollama)        │
+   │  + Summary (5% influence)  │
+   │  + Style Memory            │
+   └────────────────────────────┘
+        ↓
+     Journal Entry              (Memory system)
+        ↓
+ ┌──────────────┬───────────────┬───────────────┐
+ │ Scoring      │ Beliefs       │ Contradiction │
+ │ (NNet+rules) │ (weighted)    │ Detection     │
+ └──────────────┴───────────────┴───────────────┘
+        ↓
+   Summary                      (overwrite daily)
+        ↓
+   Idea Graph + Score History   (Graphical User Interface)
+        ↓
+   Archive System               (Long term storage)
