@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use ReligionAI, please cite the project and give appropriate credit."
+title: "ReligionAI"
+version: "0.1.0"
+type: software
+license: MIT
+authors:
+  - name: "[Matthew Salisbury, GitHub: matthew.salisbury07, matthew.salisbury07@gmail.com]"
+repository-code: "https://github.com/matthewSalisbury07/ReligionAI.git"
+url: "https://github.com/matthewSalisbury07/ReligionAI"
+abstract: "A local AI system for analysis of religious texts."
+keywords:
+  - artificial-intelligence
+  - local-ai
+  - religious-texts
+  - neural-network
+  - semantic-search
+  - ollama
